@@ -226,12 +226,12 @@ c)  Pour la partie texte, on ne remplira que les informations qui nous permette
 ## Création d’un index des lieux
 
 a) Lire le texte et repérer les noms de lieux. Les entourer de la balise `<placeName>`. 
-b) Créer dans le Teiheader une liste des lieux. Pour cela, juste après la balise fermante <filedesc> on va ouvrir des balises au même niveau appelées `<profiledesc></profiledesc>`. Pour voir ce qu’on insère dans ces balises, voir les guidelines : https://tei-c.org/release/doc/tei-p5-doc/fr/html/CC.html#CCAH 
-c)  Le premier lieu du texte est le « Palais », une forme abrégée de Palais de Justice. Le premier la balise <place> portera l’attribut xml :id = « Palais_de_Justice ». Dans la balise <placeName>, vous pouvez écrire le lieu en indiquant son nom complet. Dans la balise <note> vous pouvez ajouter des informations sur le lieu. 
+b) Créer dans le Teiheader une liste des lieux. Pour cela, juste après la balise fermante '<filedesc>' on va ouvrir des balises au même niveau appelées `<profiledesc></profiledesc>`. Pour voir ce qu’on insère dans ces balises, voir les guidelines : https://tei-c.org/release/doc/tei-p5-doc/fr/html/CC.html#CCAH 
+c)  Le premier lieu du texte est le « Palais », une forme abrégée de Palais de Justice. Le premier la balise '<place>' portera l’attribut xml :id = « Palais_de_Justice ». Dans la balise '<placeName>', vous pouvez écrire le lieu en indiquant son nom complet. Dans la balise '<note>' vous pouvez ajouter des informations sur le lieu. 
   
 ---
 ## Balisage des occurrences du texte
-a) Retourner dans le corps du texte et ajouter au premier <placeName> concernant le Palais de Justice avec l’attribut : ref= « #Palais_de_Justice » (Oxygen vous le propose dans une petite fenêtre pop-up). 
+a) Retourner dans le corps du texte et ajouter au premier '<placeName>' concernant le Palais de Justice avec l’attribut : ref= « #Palais_de_Justice » (Oxygen vous le propose dans une petite fenêtre pop-up). 
 Le # est utilisé pour signaler que l'attribut est un pointeur qui lie votre référence à un xml:id déclaré dans votre document. 
 b)  Reproduisez cette méthode pour les autres lieux du texte. 
 c) Pour aller plus loin : faire un index des noms de personnages, en suivant la même méthode.
